@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://online-course-backend-8kcy.onrender.com',
+        target: 'https://csepq-backend.onrender.com',
         changeOrigin: true,
       },
     },
